@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border: 1px solid #e7e7e7;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left : 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    color: #ff0000;
+    border-right: 1px solid #ff0000;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #ff0000;
+    color: black;
+  }
+
+  a {
+    display: inline-block;
+    padding: 8px;
+    background-color: #000000;
+  }
+
+
+  /* SIDEBAR */
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 93%;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    
+    overflow: auto;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  
