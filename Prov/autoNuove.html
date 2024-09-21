@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html"><i></i> Home</a>
+        <a class="active" href="#"><i></i> Auto Nuove</a>
+        <a href="#"><i></i> Auto Usate</a>
+        <a href="#"><i></i> Noleggi</a>
+        <a href="#"><i></i> Chi siamo</a>
+        <a href="#"><i></i> Contatti</a>
+        <img src="/images/logoVW.png" width="38" style="padding-right: 40px; padding-top: 5px; float: right;">
+        <img src="/images/logoMerc.png" width="38" style="padding: 5px; padding-right: 15px; float: right;">
+        <img src="/images/logoBmw.png" width="38" style="padding: 5px; padding-right: 15px; float: right;">
+        <img src="/images/audi2.png" width="55" style="padding-top: 13.5px; padding-right: 15px; float: right;">
+    </div>
+
+    <!--sidebar -->
+    <div class="sidebar" style="width: 20%;">
+        <h1>La nostra sede</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1186.9156478317755!2d11.74286354153205!3d44.964459184005314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e575bc43b121b%3A0x49ec6f5213655c07!2sGruppo%20Automercato%20-%20Polesella%20-Ro-!5e0!3m2!1sit!2sit!4v1726495102338!5m2!1sit!2sit" width="100%" height="40%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Via Nazionale (SS16) 2430, Polesella (RO)</p>
+    </div>
+
+    <br> <br> <br>
+    <h1 class="text">Le nostre auto in pronta consegna</h1>
+    
+    <!-- Tabella per 4 colonne -->
+    <table>
+        <tr>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/bmwSerie3.png" alt="serie3">
+                        <h1 class="textTitle">BMW 320d</h1>
+                        <div class="textCont">
+                        Motore: 2.0 190CV Diesel <br>
+                        Trazione xDrive <br>
+                        Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong> A partire da 39.990€ </strong>
+                        <br>
+                        <button id="agg" onclick="location.href='www.ansa.it'"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="/images/classeA.png" alt="classeA">
+                        <h1 class="textTitle">Mercedes A220d</h1>
+                        <div class="textCont">
+                            Motore: 2.0 190CV Diesel <br>
+                            Trazione 4matic <br>
+                            Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong> A partire da 35.990€ </strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/audiA4.png" alt="Audi A4">
+                        <h1 class="textTitle">Audi A4 50 TDI</h1>
+                        <div class="textCont">
+                        Motore: 3.0 V6 286CV Diesel <br>
+                        Trazione Quattro <br>
+                        Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong>A partire da 56.990€</strong>
+                        <br>
+                        <button id="agg">Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/golf.png" alt="Volkswagen Golf">
+                        <h1 class="textTitle">Volkswagen Golf 8</h1>
+                        <div class="textCont">
+                        Motore: 1.5 TSI 150CV Benzina <br>
+                        Trazione anteriore <br>
+                        Cambio automatico DSG 7 rapporti <br>
+                        </div>
+                        <strong>A partire da 32.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/audiA7.png" alt="a7">
+                        <h1 class="textTitle">Audi A7 55 TFSI</h1>
+                        <div class="textCont">
+                            Motore: 3.0 V6 367CV Benzina<br>
+                            Trazione Quattro <br>
+                            Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong> A partire da 85.990€ </strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/c63amg.png" alt="c63">
+                        <h1 class="textTitle">Mercedes C63 AMG</h1>
+                        <div class="textCont">
+                        Motore: 4.0 V8 476CV Benzina  <br>
+                        Trazione 4matic <br>
+                        Cambio automatico 9 rapporti <br>
+                        </div>
+                        <strong>A partire da 109.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/bmw530.png" alt="530i">
+                        <h1 class="textTitle">BMW 530i</h1>
+                        <div class="textCont">
+                        Motore: 2.0 252CV Benzina <br>
+                        Trazione posteriore <br>
+                        Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong>A partire da 67.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/tiguan.png" alt="tiguan">
+                        <h1 class="textTitle">Volkswagen Tiguan R</h1>
+                        <div class="textCont">
+                        Motore: 2.0 TSI 320CV Benzina <br>
+                        Trazione 4motion <br>
+                        Cambio automatico DSG 7 rapporti <br>
+                        </div>
+                        <strong>A partire da 56.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/rs3.png" alt="rs3">
+                        <h1 class="textTitle">Audi RS3 8Y</h1>
+                        <div class="textCont">
+                        Motore: 2.5 I5 400CV Benzina <br>
+                        Trazione Quattro <br>
+                        Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong>A partire da 72.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/m4cs.png" alt="m4cs">
+                        <h1 class="textTitle">BMW M4 Competition</h1>
+                        <div class="textCont">
+                        Motore: 3.0 I6 550CV Benzina <br>
+                        Trazione posteriore <br>
+                        Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong>A partire da 149.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="gallery">
+                    <div class="image-container">
+                        <img id="imCatalogo" src="images/a45s.png" alt="a45s">
+                        <h1 class="textTitle">Mercedes A45s AMG</h1>
+                        <div class="textCont">
+                        Motore: 2.0 I4 421CV Benzina <br>
+                        Trazione 4matic <br>
+                        Cambio automatico 8 rapporti <br>
+                        </div>
+                        <strong>A partire da 68.990€</strong>
+                        <br>
+                        <button id="agg"> Scopri di Più</button>
+                    </div>
+                </div>
+            </td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <script src="catalogo.js"></script>
+
+</body>
+</html>

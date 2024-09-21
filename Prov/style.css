@@ -1,112 +1,152 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border: 1px solid #e7e7e7;
-    background-color: #000000;
-    position: absolute;
-    top: 0;
-    left : 0;
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  li {
-    float: left;
-    color: #ff0000;
-    border-right: 1px solid #ffffff;
-  }
-  
-  li a {
-    display: inline-block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #3aa0ff;
-    color: black;
-  }
+.navbar {
+  width: 80%;
+  background-color: #555;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+}
 
-  a {
-    display: inline-block;
-    padding: 8px;
-    background-color: #000000;
+.Immagini
+{
+  width: 60;
+  position: relative;
+}
+
+/* Navbar links */
+.navbar a {
+  float:left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 20x;
+}
+
+/*al passaggio del mouse*/
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* attivo nella navbar*/
+.active {
+  background-color: #0452aa;
+}
+
+/*responsive*/
+@media screen and (max-width: 500px) 
+{
+  .navbar a {
+    float: none;
+    display: block;
   }
+}
 
 
-  /* SIDEBAR */
+/* SIDEBAR */
+.sidebar 
+{
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  overflow: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
 
-  .sidebar {
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
-    position: absolute;
-    height: 96%;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    overflow: auto;
-    
-  }
-  
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 1000px;
-  }
-
-  /* Stile del Jumbotron */
+/* Stile del Jumbotron */
 .jumbotron {
 	background-image: url("Images/sfondo.jpg");
+  
 	background-size: cover;
+  background-size:contain;
 	color: #000000;
-	height: 700px;
-  width: 75%;
-  margin-right: 275px;
+	height: 500px;
+  width: 81%;
 	text-align: center;
+  font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
+
+.text{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 300px;
+  font-size: 20px;
+}
 /* Stile del titolo del Jumbotron */
 .jumbotron h1 {
-	font-size: 4rem;
-	margin-top: 50px;
+	font-size: 60px;
+	margin-top: 10px;
+  padding: 80px;
 }
 
-.textMaps
-{
-  margin-right: 275px;
-  text-align: center;
+.container{
+  width: 30px;
+  height: 40%;
+  padding: 20px;
+  border: 2px solid black;
+  background-color: lightyellow;
+  margin-left: 8%;
+  margin-top: 10%;
+
+
+}
+
+div.gallery {
+  margin: 10px;
+  border: 5px solid #0452aa;
+  width: 280px;
+  height: 400px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #a1caff;
+  text-align: center;
+  
 }
 
-.textJumb
-{
+
+div.gallery img {
+  margin-left: 5px;
+  margin-top: 8px;
+  padding-bottom: 3px;
+  width: 240px;
+  height: 160px;
+}
+
+#primo{
+  
+  display: inline-flex;
+
+}
+
+#agg{
+  margin-top: 30px;
+  width: 200px;
+  height: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #449bff;
+  
+}
+
+.textTitle{
   font-size: 19px;
-}
-
-.textMaps
-{
-  width: 75%;
-  margin-right: 275px;
-  text-align: center;
-}
-
-.maps
-{
-  width: 75%;
-  margin-right: 275px;
-  text-align: center;
-}
-
   
+}
+
+.textCont{
+  font-size: 14px;
   
+}
+
+
+
+
+
