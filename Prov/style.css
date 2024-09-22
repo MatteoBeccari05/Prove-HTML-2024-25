@@ -79,7 +79,7 @@
 .text{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-right: 300px;
+  width: 80%;
   font-size: 20px;
 }
 /* Stile del titolo del Jumbotron */
@@ -87,18 +87,6 @@
 	font-size: 60px;
 	margin-top: 10px;
   padding: 80px;
-}
-
-.container{
-  width: 30px;
-  height: 40%;
-  padding: 20px;
-  border: 2px solid black;
-  background-color: lightyellow;
-  margin-left: 8%;
-  margin-top: 10%;
-
-
 }
 
 div.gallery {
@@ -144,6 +132,13 @@ div.gallery img {
 .textCont{
   font-size: 14px;
   
+}
+
+.text2{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  font-size: 20px;
 }
 
 
