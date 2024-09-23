@@ -6,12 +6,6 @@
   top: 0;
 }
 
-.Immagini
-{
-  width: 60;
-  position: relative;
-}
-
 /* Navbar links */
 .navbar a {
   float:left;
@@ -21,6 +15,7 @@
   color: white;
   text-decoration: none;
   font-size: 20x;
+  border-radius: 10px;
 }
 
 /*al passaggio del mouse*/
@@ -33,31 +28,22 @@
   background-color: #0452aa;
 }
 
-/*responsive*/
-@media screen and (max-width: 500px) 
-{
-  .navbar a {
-    float: none;
-    display: block;
-  }
-}
-
-
 /* SIDEBAR */
 .sidebar 
 {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #f1f1f1;
+  background-color: #dcdcdc;
   position: fixed;
   height: 100%;
   right: 0;
-  bottom: 0;
+  top: 0;
   text-align: center;
   overflow: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 13px;
+
 }
 
 /* Stile del Jumbotron */
@@ -92,8 +78,8 @@
 div.gallery {
   margin: 10px;
   border: 5px solid #0452aa;
-  width: 280px;
-  height: 400px;
+  width: 300px;
+  height: 430px;
   border-radius: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #a1caff;
@@ -104,10 +90,10 @@ div.gallery {
 
 div.gallery img {
   margin-left: 5px;
-  margin-top: 8px;
+  margin-top: 20px;
   padding-bottom: 3px;
-  width: 240px;
-  height: 160px;
+  width: 250px;
+  height: 180px;
   border-radius: 10px;
 }
 
@@ -115,10 +101,19 @@ div.gallery img {
   margin-top: 30px;
   width: 200px;
   height: 30px;
+  border-radius: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #449bff;
+  background-color: #0452aa;
+  color: white;
   
 }
+
+#agg:hover{
+  background-color: #ffffff;
+  color: black;
+
+}
+
 
 .textTitle{
   font-size: 19px;
@@ -140,9 +135,44 @@ div.gallery img {
 
 table{
   width: 80%;
+  padding-left: 5%;
   padding-right: 20%;
+  
 }
 
 
+footer{
+  background-color: #555;
+  width: 80%;
+  height: auto;
+  padding: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  border-radius: 5px;
+  color: white;
+}
 
 
+.footer1{
+  padding: 15px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.footer2{
+  padding: 15px;
+  flex-grow: 2;
+  text-align: center;
+}
+
+
+.footer3{
+  padding: 15px;
+  flex-grow: 3;
+  text-align: center;
+}
+
+
+a{
+  color: #7fbbff;
+}
