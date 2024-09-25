@@ -1,9 +1,10 @@
 .navbar {
-  width: 80%;
+  width: 79%;
   background-color: #555;
   overflow: auto;
   position: fixed;
   top: 0;
+  border-radius: 10px;
 }
 
 /* Navbar links */
@@ -20,7 +21,8 @@
 
 /*al passaggio del mouse*/
 .navbar a:hover {
-  background-color: #000;
+  background-color: #191919;
+  transition: 500ms;
 }
 
 /* attivo nella navbar*/
@@ -31,8 +33,8 @@
 /* SIDEBAR */
 .sidebar 
 {
+  border-radius: 10px;
   margin: 0;
-  padding: 0;
   width: 20%;
   background-color: #dcdcdc;
   position: fixed;
@@ -49,18 +51,18 @@
 /* Stile del Jumbotron */
 .jumbotron {
 	background-image: url("Images/sfondo.jpg");
-  
+  margin-top: 2%;
 	background-size: cover;
   background-size:contain;
 	color: #000000;
 	height: 500px;
-  width: 81%;
+  width: 79.5%;
 	text-align: center;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
   
 }
-
 
 .text{
   text-align: center;
@@ -86,7 +88,6 @@ div.gallery {
   text-align: center;
   
 }
-
 
 div.gallery img {
   margin-left: 5px;
@@ -114,7 +115,6 @@ div.gallery img {
 
 }
 
-
 .textTitle{
   font-size: 19px;
   
@@ -132,18 +132,16 @@ div.gallery img {
   font-size: 20px;
 }
 
-
 table{
-  width: 80%;
+  width: 79%;
   padding-left: 5%;
   padding-right: 20%;
   
 }
 
-
 footer{
   background-color: #555;
-  width: 80%;
+  width: 79%;
   height: auto;
   padding: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -151,7 +149,6 @@ footer{
   border-radius: 5px;
   color: white;
 }
-
 
 .footer1{
   padding: 15px;
@@ -165,14 +162,56 @@ footer{
   text-align: center;
 }
 
-
 .footer3{
   padding: 15px;
   flex-grow: 3;
   text-align: center;
 }
 
-
 a{
   color: #7fbbff;
 }
+
+/*PAGINA TAGLIANDI*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 15px;
+  border: 1px solid #0452aa;; 
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bottone{
+  background-color: #fd3f3f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+
+.bottone:hover {
+  background-color: #1c8f12;
+  transition: 500ms;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  width: 75%;
+  margin-top: 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1%;
+  border-color: #0452aa;
+  border-style: ridge;
+}
+
+
